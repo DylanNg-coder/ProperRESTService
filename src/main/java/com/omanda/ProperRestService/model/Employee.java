@@ -10,7 +10,7 @@ public class Employee {
     private @Id @GeneratedValue Long id;
     private String name;
     private String role;
-
+    public Employee() {}
     public Employee(String name, String role) {
 
         this.name = name;
